@@ -35,7 +35,7 @@ html {
   font-size: 3.1rem;
   line-height: 3.7rem;
   text-decoration: none;
-  font-size: 2.4rem; }
+  font-size: 350%; }
 
 .white-header-text {
   color: white;
@@ -48,28 +48,28 @@ html {
   color: #404040;
   font-family: "Avenir Next Regular";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none; }
 
 .text.medium {
   color: #404040;
   font-family: "Avenir Next Medium";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none; }
 
 .text.demi-bold {
   color: #404040;
   font-family: "Avenir Next Demi Bold";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none; }
 
 .text.light {
   color: #404040;
   font-family: "Avenir Next Ultra Light";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none;
   color: #A2A2A2;
   font-size: 1.8rem;
@@ -79,7 +79,7 @@ html {
   color: #404040;
   font-family: "Avenir Next Regular";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none;
   text-decoration: underline; }
 
@@ -87,7 +87,7 @@ html {
   color: #404040;
   font-family: "Avenir Next Medium";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none;
   font-size: .7rem;
   line-height: 1.3rem;
@@ -97,7 +97,7 @@ html {
   color: #404040;
   font-family: "Avenir Next Regular";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none;
   font-size: .8rem;
   line-height: 1.1rem; }
@@ -106,7 +106,7 @@ html {
   color: #404040;
   font-family: "Avenir Next Bold";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none;
   letter-spacing: 2.1px; }
 
@@ -114,7 +114,7 @@ html {
   color: #404040;
   font-family: "Avenir Next Demi Bold";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none;
   color: black;
   font-size: 1.3rem;
@@ -124,7 +124,7 @@ html {
   color: #404040;
   font-family: "Avenir Next Italic";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none;
   color: #A2A2A2;
   font-size: .9rem; }
@@ -133,7 +133,7 @@ html {
   color: #404040;
   font-family: "Avenir Next Regular";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none;
   letter-spacing: .17rem; }
 
@@ -141,7 +141,7 @@ html {
   color: #404040;
   font-family: "Avenir Next Demi Bold";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none;
   color: white;
   line-height: 1.4rem; }
@@ -150,7 +150,7 @@ html {
   color: #404040;
   font-family: "Avenir Next Regular";
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 110%;
   text-decoration: none;
   color: white;
   line-height: 1.4rem; }
@@ -234,7 +234,12 @@ nav {
     nav .links-wrapper .links {
       display: flex;
       flex-direction: column;
-      align-content: flex-start; }
+      align-content: flex-start;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
       nav .links-wrapper .links .nav-item {
         opacity: 0;
         display: flex;
@@ -407,7 +412,7 @@ nav.open {
     color: #404040;
     font-family: "Avenir Next Regular";
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 110%;
     text-decoration: none;
     text-align: center;
     margin-top: 2.9rem; }
@@ -415,7 +420,7 @@ nav.open {
     color: #404040;
     font-family: "Avenir Next Regular";
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 110%;
     text-decoration: none;
     text-decoration: underline; }
   .content.info-page h2 {
@@ -430,7 +435,7 @@ nav.open {
     color: #404040;
     font-family: "Avenir Next Medium";
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 110%;
     text-decoration: none; }
   .content.info-page .stats {
     color: #166762;
@@ -438,7 +443,7 @@ nav.open {
     font-size: 3.1rem;
     line-height: 3.7rem;
     text-decoration: none;
-    font-size: 2.4rem;
+    font-size: 350%;
     text-align: center; }
 
 .content.contact {
@@ -464,7 +469,7 @@ nav.open {
     color: #404040;
     font-family: "Avenir Next Ultra Light";
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 110%;
     text-decoration: none;
     color: #A2A2A2;
     font-size: 1.8rem;
@@ -474,7 +479,7 @@ nav.open {
       color: #404040;
       font-family: "Avenir Next Ultra Light";
       font-size: 1rem;
-      line-height: 1.5rem;
+      line-height: 110%;
       text-decoration: none;
       color: #A2A2A2;
       font-size: 1.8rem;
@@ -487,7 +492,7 @@ nav.open {
     color: #404040;
     font-family: "Avenir Next Regular";
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 110%;
     text-decoration: none;
     letter-spacing: .17rem;
     margin-top: 0.7rem; }
