@@ -533,7 +533,7 @@ nav.open {
         top: 0;
         pointer-events: none;
         opacity: 0;
-        transition: opacity .4s ease-in-out;
+        transition: opacity .1s ease-in-out;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -545,12 +545,14 @@ nav.open {
       .content.contact #administration-circles .circle.active,
       .content.contact #philantropy-circles .circle.active {
         width: 17.2rem;
-        height: 17.2rem; }
+        height: 17.2rem;
+        transition: width .4s ease-in-out, height .4s ease-in-out; }
         .content.contact #interaction-circles .circle.active figcaption,
         .content.contact #administration-circles .circle.active figcaption,
         .content.contact #philantropy-circles .circle.active figcaption {
           pointer-events: all;
-          opacity: 1; }
+          opacity: 1;
+          transition: opacity .1s ease-in-out .3s; }
 
 * {
   overflow: hidden;
