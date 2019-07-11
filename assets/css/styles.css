@@ -230,7 +230,6 @@ nav {
     position: absolute;
     height: 90%;
     top: 0;
-    padding: 3.5rem;
     overflow-y: scroll; }
     nav .links-wrapper .links {
       display: flex;
@@ -477,13 +476,15 @@ nav.open {
     letter-spacing: .17rem;
     margin-top: 0.7rem; }
   .content.contact #interaction-circles,
-  .content.contact #administration-circles {
+  .content.contact #administration-circles,
+  .content.contact #philantropy-circles {
     height: 30rem;
     width: 100%;
     margin-top: 1.8rem;
     position: relative; }
     .content.contact #interaction-circles .circle,
-    .content.contact #administration-circles .circle {
+    .content.contact #administration-circles .circle,
+    .content.contact #philantropy-circles .circle {
       width: 7rem;
       height: 7rem;
       transition: width .4s ease-in-out, height .4s ease-in-out;
@@ -495,12 +496,14 @@ nav.open {
       -webkit-transform: translate3d(0, 0, 0);
               transform: translate3d(0, 0, 0); }
       .content.contact #interaction-circles .circle img,
-      .content.contact #administration-circles .circle img {
+      .content.contact #administration-circles .circle img,
+      .content.contact #philantropy-circles .circle img {
         width: 100%;
         height: 100%;
         pointer-events: none; }
       .content.contact #interaction-circles .circle figcaption,
-      .content.contact #administration-circles .circle figcaption {
+      .content.contact #administration-circles .circle figcaption,
+      .content.contact #philantropy-circles .circle figcaption {
         width: 100%;
         height: 100%;
         border-radius: 50%;
@@ -518,10 +521,12 @@ nav.open {
         overflow-wrap: break-word;
         background-color: #0000008C; }
       .content.contact #interaction-circles .circle.active,
-      .content.contact #administration-circles .circle.active {
+      .content.contact #administration-circles .circle.active,
+      .content.contact #philantropy-circles .circle.active {
         width: 17.2rem;
         height: 17.2rem; }
         .content.contact #interaction-circles .circle.active figcaption,
-        .content.contact #administration-circles .circle.active figcaption {
+        .content.contact #administration-circles .circle.active figcaption,
+        .content.contact #philantropy-circles .circle.active figcaption {
           pointer-events: all;
           opacity: 1; }
