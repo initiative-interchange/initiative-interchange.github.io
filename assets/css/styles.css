@@ -377,8 +377,8 @@ nav.open {
     width: 40%; }
   .content.info-page .prominent-image {
     width: 100vw;
-    max-width: 1300px;
-    max-height: 900px; }
+    max-width: 700px;
+    max-height: 400px; }
   .content.info-page .video {
     display: flex;
     flex-direction: column;
