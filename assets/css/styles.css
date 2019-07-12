@@ -340,7 +340,9 @@ main {
     .content.landing-page .page .video-player-wrapper {
       width: 100vw;
       height: 100%;
-      max-width: 600px; }
+      max-width: 600px;
+      margin-top: 10%;
+      margin-bottom: 10%; }
     .content.landing-page .page .icon {
       width: 2.9rem;
       height: 2.9rem; }
