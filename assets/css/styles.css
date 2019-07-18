@@ -56,6 +56,9 @@ html {
   font-size: 1.4rem;
   line-height: 155%;
   text-decoration: none; }
+  @media (min-width: 61.25em) {
+    .text {
+      font-size: 1rem; } }
 
 .white-text {
   color: #404040;
@@ -64,6 +67,9 @@ html {
   line-height: 155%;
   text-decoration: none;
   color: white; }
+  @media (min-width: 61.25em) {
+    .white-text {
+      font-size: 1rem; } }
 
 .text-slightly-smaller {
   color: #404040;
@@ -72,6 +78,9 @@ html {
   line-height: 155%;
   text-decoration: none;
   font-size: 0.7rem; }
+  @media (min-width: 61.25em) {
+    .text-slightly-smaller {
+      font-size: 1rem; } }
 
 .text.medium {
   color: #404040;
@@ -79,6 +88,9 @@ html {
   font-size: 1.4rem;
   line-height: 155%;
   text-decoration: none; }
+  @media (min-width: 61.25em) {
+    .text.medium {
+      font-size: 1rem; } }
 
 .text.demi-bold {
   color: #404040;
@@ -86,6 +98,9 @@ html {
   font-size: 1.4rem;
   line-height: 155%;
   text-decoration: none; }
+  @media (min-width: 61.25em) {
+    .text.demi-bold {
+      font-size: 1rem; } }
 
 .text.light {
   color: #404040;
@@ -96,6 +111,9 @@ html {
   color: #A2A2A2;
   font-size: 1.8rem;
   line-height: 3.7rem; }
+  @media (min-width: 61.25em) {
+    .text.light {
+      font-size: 1rem; } }
 
 .text.underline {
   color: #404040;
@@ -104,6 +122,9 @@ html {
   line-height: 155%;
   text-decoration: none;
   text-decoration: underline; }
+  @media (min-width: 61.25em) {
+    .text.underline {
+      font-size: 1rem; } }
 
 .text.sdg {
   color: #404040;
@@ -114,6 +135,9 @@ html {
   font-size: .7rem;
   line-height: 1.3rem;
   letter-spacing: 0.074rem; }
+  @media (min-width: 61.25em) {
+    .text.sdg {
+      font-size: 1rem; } }
 
 .text.legal-notice {
   color: #404040;
@@ -123,6 +147,9 @@ html {
   text-decoration: none;
   font-size: .8rem;
   line-height: 1.1rem; }
+  @media (min-width: 61.25em) {
+    .text.legal-notice {
+      font-size: 1rem; } }
 
 .text.continent-heading {
   color: #404040;
@@ -131,6 +158,9 @@ html {
   line-height: 155%;
   text-decoration: none;
   letter-spacing: 2.1px; }
+  @media (min-width: 61.25em) {
+    .text.continent-heading {
+      font-size: 1rem; } }
 
 .text.article-heading {
   color: #404040;
@@ -141,6 +171,9 @@ html {
   color: black;
   font-size: 1.3rem;
   letter-spacing: .18rem; }
+  @media (min-width: 61.25em) {
+    .text.article-heading {
+      font-size: 1rem; } }
 
 .text.article-meta {
   color: #404040;
@@ -150,6 +183,9 @@ html {
   text-decoration: none;
   color: #A2A2A2;
   font-size: .9rem; }
+  @media (min-width: 61.25em) {
+    .text.article-meta {
+      font-size: 1rem; } }
 
 .text.board-ressort-heading {
   color: #404040;
@@ -158,6 +194,9 @@ html {
   line-height: 155%;
   text-decoration: none;
   letter-spacing: .17rem; }
+  @media (min-width: 61.25em) {
+    .text.board-ressort-heading {
+      font-size: 1rem; } }
 
 .text.board-member-name {
   color: #404040;
@@ -167,6 +206,9 @@ html {
   text-decoration: none;
   color: white;
   line-height: 1.4rem; }
+  @media (min-width: 61.25em) {
+    .text.board-member-name {
+      font-size: 1rem; } }
 
 .text.board-member {
   color: #404040;
@@ -176,6 +218,9 @@ html {
   text-decoration: none;
   color: white;
   line-height: 1.4rem; }
+  @media (min-width: 61.25em) {
+    .text.board-member {
+      font-size: 1rem; } }
 
 .no-spacing {
   margin-top: 0; }
@@ -286,6 +331,9 @@ nav {
             line-height: 155%;
             text-decoration: none;
             font-size: 1.8vh; }
+            @media (min-width: 61.25em) {
+              nav .links-wrapper .links .nav-item .group a {
+                font-size: 1rem; } }
   nav .nav-button {
     width: 100%;
     height: 100%;
@@ -466,6 +514,10 @@ nav.open {
     text-decoration: none;
     text-align: center;
     margin-top: 2.9rem; }
+    @media (min-width: 61.25em) {
+      .content.info-page a,
+      .content.info-page p:not([class]) {
+        font-size: 1rem; } }
   .content.info-page a {
     color: #404040;
     font-family: "Avenir Next Regular";
@@ -473,6 +525,9 @@ nav.open {
     line-height: 155%;
     text-decoration: none;
     text-decoration: underline; }
+    @media (min-width: 61.25em) {
+      .content.info-page a {
+        font-size: 1rem; } }
   .content.info-page h2 {
     color: #166762;
     font-family: 'Avenir Next Ultra Light';
@@ -487,6 +542,9 @@ nav.open {
     font-size: 1.4rem;
     line-height: 155%;
     text-decoration: none; }
+    @media (min-width: 61.25em) {
+      .content.info-page .medium {
+        font-size: 1rem; } }
   .content.info-page .stats {
     color: #166762;
     font-family: 'Avenir Next Ultra Light';
@@ -525,6 +583,9 @@ nav.open {
     font-size: 1.8rem;
     line-height: 3.7rem;
     margin-top: 5rem; }
+    @media (min-width: 61.25em) {
+      .content.contact .email {
+        font-size: 1rem; } }
     .content.contact .email a {
       color: #404040;
       font-family: "Avenir Next Ultra Light";
@@ -535,6 +596,9 @@ nav.open {
       font-size: 1.8rem;
       line-height: 3.7rem;
       text-decoration: none; }
+      @media (min-width: 61.25em) {
+        .content.contact .email a {
+          font-size: 1rem; } }
     .content.contact .email::after {
       content: ">";
       margin-left: 0.9rem; }
@@ -546,6 +610,9 @@ nav.open {
     text-decoration: none;
     letter-spacing: .17rem;
     margin-top: 0.7rem; }
+    @media (min-width: 61.25em) {
+      .content.contact h2 {
+        font-size: 1rem; } }
   .content.contact #interaction-circles,
   .content.contact #administration-circles,
   .content.contact #philantropy-circles {
@@ -638,6 +705,9 @@ nav.open {
         background: transparent;
         border: none;
         outline: none; }
+        @media (min-width: 61.25em) {
+          .content.join form .input-box input {
+            font-size: 1rem; } }
         .content.join form .input-box input::-webkit-input-placeholder {
           color: #404040;
           font-family: "Avenir Next Regular";
@@ -662,6 +732,15 @@ nav.open {
           font-size: 1.4rem;
           line-height: 155%;
           text-decoration: none; }
+          @media (min-width: 61.25em) {
+            .content.join form .input-box input::-webkit-input-placeholder {
+              font-size: 1rem; }
+            .content.join form .input-box input:-ms-input-placeholder {
+              font-size: 1rem; }
+            .content.join form .input-box input::-ms-input-placeholder {
+              font-size: 1rem; }
+            .content.join form .input-box input::placeholder {
+              font-size: 1rem; } }
       .content.join form .input-box textarea {
         width: 70%;
         background: transparent;
@@ -672,6 +751,9 @@ nav.open {
         font-size: 1.4rem;
         line-height: 155%;
         text-decoration: none; }
+        @media (min-width: 61.25em) {
+          .content.join form .input-box textarea {
+            font-size: 1rem; } }
         .content.join form .input-box textarea::-webkit-input-placeholder {
           text-align: center;
           color: #404040;
@@ -700,6 +782,15 @@ nav.open {
           font-size: 1.4rem;
           line-height: 155%;
           text-decoration: none; }
+          @media (min-width: 61.25em) {
+            .content.join form .input-box textarea::-webkit-input-placeholder {
+              font-size: 1rem; }
+            .content.join form .input-box textarea:-ms-input-placeholder {
+              font-size: 1rem; }
+            .content.join form .input-box textarea::-ms-input-placeholder {
+              font-size: 1rem; }
+            .content.join form .input-box textarea::placeholder {
+              font-size: 1rem; } }
       .content.join form .input-box .error-message {
         color: #404040;
         font-family: "Avenir Next Regular";
@@ -708,6 +799,9 @@ nav.open {
         text-decoration: none;
         color: #B33D02;
         text-align: center; }
+        @media (min-width: 61.25em) {
+          .content.join form .input-box .error-message {
+            font-size: 1rem; } }
     .content.join form label {
       width: 70%;
       text-align: center;
@@ -716,6 +810,9 @@ nav.open {
       font-size: 1.4rem;
       line-height: 155%;
       text-decoration: none; }
+      @media (min-width: 61.25em) {
+        .content.join form label {
+          font-size: 1rem; } }
     .content.join form input[type="checkbox"] {
       width: auto; }
     .content.join form input[type="submit"] {
@@ -729,12 +826,18 @@ nav.open {
       text-decoration: none;
       letter-spacing: 2.1px;
       border: black 0.15rem solid; }
+      @media (min-width: 61.25em) {
+        .content.join form input[type="submit"] {
+          font-size: 1rem; } }
     .content.join form #response-message {
       color: #404040;
       font-family: "Avenir Next Regular";
       font-size: 1.4rem;
       line-height: 155%;
       text-decoration: none; }
+      @media (min-width: 61.25em) {
+        .content.join form #response-message {
+          font-size: 1rem; } }
       .content.join form #response-message.error {
         color: #B33D02; }
       .content.join form #response-message.success {
@@ -760,6 +863,9 @@ nav.open {
       text-decoration: none;
       color: white;
       text-decoration: underline; }
+      @media (min-width: 61.25em) {
+        .content.donate p a:link, .content.donate p a:visited {
+          font-size: 1rem; } }
     .content.donate p a:hover, .content.donate p a:active {
       color: #404040;
       font-family: "Avenir Next Regular";
@@ -768,6 +874,9 @@ nav.open {
       text-decoration: none;
       color: white;
       text-decoration: underline; }
+      @media (min-width: 61.25em) {
+        .content.donate p a:hover, .content.donate p a:active {
+          font-size: 1rem; } }
   .content.donate .payment-info {
     display: flex;
     flex-direction: column;
@@ -778,6 +887,9 @@ nav.open {
     line-height: 155%;
     text-decoration: none;
     color: white; }
+    @media (min-width: 61.25em) {
+      .content.donate .payment-info {
+        font-size: 1rem; } }
 
 * {
   overflow: hidden;
