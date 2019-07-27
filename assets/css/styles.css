@@ -672,7 +672,7 @@ nav.open {
           transition: opacity .1s ease-in-out .3s; }
 
 .content.join {
-  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("../images/join_us/background.png");
+  background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("/assets/images/join_us/background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -844,7 +844,7 @@ nav.open {
         color: #166762; }
 
 .content.donate {
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/donate/background.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/assets/images/donate/background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
