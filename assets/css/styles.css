@@ -464,16 +464,7 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 9fr 1fr;
-  grid-template-areas: "content" "nav"; }
-
-main {
-  grid-area: content;
-  overflow-y: scroll; }
+  padding: 0; }
 
 .hidden {
   display: none; }
@@ -490,7 +481,7 @@ main {
     margin-top: 0; }
 
 .nav-button-spacer {
-  grid-area: nav; }
+  height: 10vh; }
 
 nav {
   width: 100vw;
@@ -517,9 +508,13 @@ nav {
     overflow-y: scroll; }
     nav .links-wrapper .links {
       height: 100%;
+      padding-top: 10vh;
       display: flex;
       flex-direction: column;
       justify-content: space-around; }
+      @media (max-width: 46.24em) {
+        nav .links-wrapper .links {
+          padding-top: 20vh; } }
       nav .links-wrapper .links .nav-item {
         opacity: 0;
         display: flex;
@@ -569,6 +564,11 @@ nav {
         height: 50%;
         width: 100%; }
 
+main.nav-open {
+  height: 100vh;
+  overflow-y: hidden;
+  position: fixed; }
+
 nav.open {
   pointer-events: all;
   touch-action: all; }
@@ -607,10 +607,8 @@ nav.open {
 .content.landing-page {
   background-image: url("/assets/images/BG.png");
   background-size: cover;
-  width: 100%; }
-  .content.landing-page::after {
-    content: '';
-    margin-top: 5rem; }
+  width: 100%;
+  padding-bottom: 6rem; }
   .content.landing-page .page {
     width: 100%;
     display: flex;
@@ -629,7 +627,9 @@ nav.open {
       width: 60%; }
     .content.landing-page .page.sdg {
       width: 50%;
-      margin-top: 6rem; }
+      margin-top: 6rem;
+      margin-left: auto;
+      margin-right: auto; }
       .content.landing-page .page.sdg * {
         width: 100%; }
       .content.landing-page .page.sdg img {
@@ -1230,7 +1230,7 @@ nav.open {
       justify-content: center; }
       .content.article .hero .hero-header-wrapper h2 {
         position: absolute;
-        top: 2.9rem;
+        top: 0.9rem;
         color: #404040;
         font-family: "Avenir Next Demi Bold";
         font-size: 1.4rem;
@@ -1379,9 +1379,66 @@ nav.open {
       margin-left: auto;
       margin-right: auto; }
 
-* {
-  overflow: hidden;
-  scrollbar-width: none; }
+.content.events .events .event {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  max-width: 980px;
+  margin-top: 2.9rem;
+  flex-direction: column; }
+  .content.events .events .event img.thumbnail {
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .content.events .events .event .info {
+    display: flex;
+    flex-direction: column; }
+    .content.events .events .event .info .article-meta {
+      color: #404040;
+      font-family: "Avenir Next Italic";
+      font-size: 1.4rem;
+      line-height: 155%;
+      text-decoration: none;
+      color: #A2A2A2; }
+      @media (min-width: 61.25em) {
+        .content.events .events .event .info .article-meta {
+          font-size: 1rem; } }
+    .content.events .events .event .info .article-heading {
+      text-transform: uppercase; }
+    .content.events .events .event .info .preview {
+      color: #404040;
+      font-family: "Avenir Next Regular";
+      font-size: 1.4rem;
+      line-height: 155%;
+      text-decoration: none;
+      color: #595959;
+      text-align: justify; }
+      @media (min-width: 61.25em) {
+        .content.events .events .event .info .preview {
+          font-size: 1rem; } }
+  .content.events .events .event img.thumbnail {
+    width: 100%;
+    height: 400px; }
+    @media (min-width: 20em) and (max-width: 46.24em) {
+      .content.events .events .event img.thumbnail {
+        height: 250px; } }
+    @media (min-width: 46.25em) and (max-width: 61.24em) {
+      .content.events .events .event img.thumbnail {
+        height: 300px; } }
+    @media (min-width: 61.25em) and (max-width: 81.24em) {
+      .content.events .events .event img.thumbnail {
+        height: 350px; } }
+  .content.events .events .event .info {
+    margin-top: 0.7rem;
+    width: 80%;
+    align-items: center; }
+    .content.events .events .event .info p {
+      margin: 0; }
+      @media (max-width: 61.24em) {
+        .content.events .events .event .info p {
+          font-size: 1.2rem; } }
+      @media (min-width: 61.25em) {
+        .content.events .events .event .info p {
+          font-size: .7rem; } }
 
 ::-webkit-scrollbar {
   display: none; }
