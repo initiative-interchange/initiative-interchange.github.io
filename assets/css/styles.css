@@ -215,6 +215,12 @@
 @font-face {
   font-family: "Avenir Next Bold";
   src: url("/assets/fonts/AvenirNext-Bold.ttf"); }
+@font-face {
+  font-family: "EB Garamond SC Regular";
+  src: url("/assets/fonts/EBGaramondSC.otf"); }
+@font-face {
+  font-family: "Garamond Medium-Italic";
+  src: url("/assets/fonts/garmndmi.ttf"); }
 html {
   font-size: calc(0.01*(100vw - 320px) + 10px); }
 
@@ -249,6 +255,14 @@ html {
   line-height: 3.7rem;
   text-decoration: none; }
 
+.xmas-header-text {
+  font-family: 'Avenir Next Ultra Light';
+  font-size: 3.1rem;
+  line-height: 3.7rem;
+  text-decoration: none;
+  font-family: "EB Garamond SC Regular";
+  font-variant: small-caps; }
+
 .text {
   color: #404040;
   font-family: "Avenir Next Regular";
@@ -257,6 +271,16 @@ html {
   text-decoration: none; }
   @media (min-width: 61.25em) {
     .text {
+      font-size: 1rem; } }
+
+.xmas-title-text {
+  color: #404040;
+  font-family: "Garamond Medium-Italic";
+  font-size: 1.4rem;
+  line-height: 155%;
+  text-decoration: none; }
+  @media (min-width: 61.25em) {
+    .xmas-title-text {
       font-size: 1rem; } }
 
 .white-text {
@@ -1054,6 +1078,36 @@ nav.open {
         color: #B33D02; }
       .content.join form #response-message.success {
         color: #166762; }
+
+.content.xmas {
+  background-image: url("/assets/images/BG.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.9rem; }
+  .content.xmas > *:first-child {
+    margin-top: 0; }
+  .content.xmas .main-content {
+    max-width: 740px;
+    width: 100%; }
+    .content.xmas .main-content .cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .content.xmas .main-content .cards p.text {
+        text-align: justify; }
+      .content.xmas .main-content .cards figure {
+        width: 48%; }
+        .content.xmas .main-content .cards figure img {
+          width: 100%; }
+      @media (max-width: 46.24em) {
+        .content.xmas .main-content .cards {
+          flex-direction: column;
+          align-items: center; }
+          .content.xmas .main-content .cards figure {
+            width: 100%;
+            max-height: 90vh; } }
 
 .content.donate {
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("/assets/images/donate/background.png");
