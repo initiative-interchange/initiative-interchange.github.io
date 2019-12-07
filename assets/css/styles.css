@@ -422,6 +422,18 @@ html {
     .text.article-text {
       font-size: 1rem; } }
 
+.text.xmas-product-description {
+  color: #404040;
+  font-family: "Avenir Next Regular";
+  font-size: 1.4rem;
+  line-height: 155%;
+  text-decoration: none;
+  color: #595959;
+  font-size: 1.2rem; }
+  @media (min-width: 61.25em) {
+    .text.xmas-product-description {
+      font-size: 1rem; } }
+
 .text.board-ressort-heading {
   color: #404040;
   font-family: "Avenir Next Regular";
@@ -1091,12 +1103,12 @@ nav.open {
   .content.xmas .main-content {
     max-width: 740px;
     width: 100%; }
+    .content.xmas .main-content a {
+      color: #166762; }
     .content.xmas .main-content .cards {
       display: flex;
       flex-direction: row;
       justify-content: space-between; }
-      .content.xmas .main-content .cards p.text {
-        text-align: justify; }
       .content.xmas .main-content .cards figure {
         width: 48%; }
         .content.xmas .main-content .cards figure img {
